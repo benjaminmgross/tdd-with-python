@@ -2,8 +2,6 @@ from selenium import webdriver
 import unittest
 
 class NewVisitorTest(unittest.TestCase):
-	import pdb
-	pdb.set_trace()
 
 	def setUp(self):
 		self.browser = webdriver.Firefox()
